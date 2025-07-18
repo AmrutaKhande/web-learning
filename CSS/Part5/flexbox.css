@@ -1,0 +1,54 @@
+#container {
+    height: 600px;
+    width: 60%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex; 
+    flex-direction: row;
+    /* flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse; */
+    /* justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly; */
+    justify-content: flex-start;
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+    /* align-items: center; */
+    /* align-items: baseline; */
+    /* align-content: flex-start; */
+    align-content: flex-end;
+    align-content: center;
+}
+
+#org {
+    align-self: flex-start;
+    /* flex-basis: 50px; */
+    /* flex-grow: 1; */
+    flex-shrink: 1;
+}
+
+#blue {
+    /* flex-basis: 400px; */
+    /* flex-grow: 3; */
+    /* max-width: 400px;
+    min-width: 400px; */
+    flex-shrink: 3;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container div {
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}

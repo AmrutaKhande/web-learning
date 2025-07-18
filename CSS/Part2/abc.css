@@ -1,0 +1,74 @@
+/* p {
+    color: #A52A2A;
+}
+
+h1, h3, h4, p {
+    text-align: center;
+}
+
+p {
+    color: red;
+    line-height: 30px;
+}
+
+h3 {
+    color: black;
+}
+
+body {
+    font-family: Georgia;
+}
+
+a {
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+}
+
+button {
+    background-color: white;
+    color: blueviolet;
+}
+
+textarea {
+    color: black;
+}
+
+h1 {
+    text-decoration: underline;
+}  */
+
+
+p {
+    color:brown;
+    text-align:center;
+    line-height:30px;
+}
+
+h1 {
+    text-align:center;
+    color:red;
+    font-family:Georgia;
+}
+
+h3 {
+    text-align:center;
+    color:black;
+}
+
+a {
+    text-decoration:none;
+    color:green;
+}
+
+button {
+    background-color:white;
+    color:blueviolet;
+}
+
+textarea {
+    color:black;
+}
+
+span {
+    text-decoration:underline;
+}
