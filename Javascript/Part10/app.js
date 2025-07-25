@@ -16,3 +16,19 @@ function sayHello() {
     console.log("Hello World!");
     alert("Hello World!");
 };
+
+
+
+// Event Listener
+
+for (button of btn) {
+    button.addEventListener('click', sayHello);
+    button.addEventListener('click', sayName);
+}
+function sayHello() {
+    alert("Hello World!");
+};
+
+function sayName() {
+    alert("Apna College");
+};
