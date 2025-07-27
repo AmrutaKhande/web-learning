@@ -1,3 +1,5 @@
+// Event Listener for Button Click to Change Color
+
 let btn = document.querySelector('button');
 
 btn.addEventListener('click', function() {
@@ -19,3 +21,4 @@ function getRandomColor() {
     let color = `rgb(${red}, ${green}, ${blue})`;
     return color;
 }
+

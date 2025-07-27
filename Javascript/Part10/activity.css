@@ -9,6 +9,8 @@ div {
     margin: auto;
 } */
 
+/* Event Listener for Button  */
+
 body {
     text-align: center;
     font-family: 'Segoe UI', sans-serif;
@@ -21,7 +23,7 @@ h1 {
     color: #333;
 }
 
-p {
+#para {
     color: #555;
     font-size: 18px;
 }
