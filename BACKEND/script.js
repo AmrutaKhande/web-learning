@@ -18,7 +18,12 @@
 // const someValue = require("./math");
 // console.log(someValue);
 
-const math = require("./math");
-console.log(math);
-console.log(math.sum(2,2));
-console.log(math.pi);
+// const math = require("./math");
+// console.log(math);
+// console.log(math.sum(2,2));
+// console.log(math.pi);
+
+// Export Fruits directory
+
+const info = require("./Fruits");
+console.log(info);
